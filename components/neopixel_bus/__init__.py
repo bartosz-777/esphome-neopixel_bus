@@ -6,6 +6,7 @@ import esphome.components.neopixelbus as npb
 import esphome.components.neopixelbus._methods as npb_methods
 import esphome.components.neopixelbus.light as npb_light
 import esphome.components.neopixelbus.const as npb_const
+from esphome.core import CORE
 
 from esphome.const import (
     CONF_CLOCK_PIN,
